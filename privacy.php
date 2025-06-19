@@ -37,7 +37,7 @@ $currentUser = getCurrentUser();
   ?>
 <nav class="navbar bg-body-dark navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="?section=dashboard"><img src="img/logo.png" style="max-width: 45px;" alt="">
+            <a class="navbar-brand" href="index.php?section=dashboard"><img src="img/logo.png" style="max-width: 45px;" alt="">
                 <span style="font-weight: bolder;">HITFLIX</span>
                 <span style="font-size: large;">PRIME</span>
             </a>
@@ -54,15 +54,15 @@ $currentUser = getCurrentUser();
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link <?= $active_section === 'dashboard' ? 'active' : '' ?>" href="?section=dashboard"><i class="fas fa-home"></i> Dashboard</a></li>
-                        <li class="nav-item"><a class="nav-link <?= $active_section === 'random' ? 'active' : '' ?>" href="?section=random"><i class="fas fa-dice"></i> Random Movie</a></li>
-                        <li class="nav-item"><a class="nav-link <?= $active_section === 'tonight' ? 'active' : '' ?>" href="?section=tonight"><i class="fas fa-bullseye"></i> Tonight's Pick</a></li>
-                        <li class="nav-item"><a class="nav-link <?= $active_section === 'guess' ? 'active' : '' ?>" href="?section=guess"><i class="fas fa-question-circle"></i> Guess Game</a></li>
-                        <li class="nav-item"><a class="nav-link <?= $active_section === 'quote' ? 'active' : '' ?>" href="?section=quote"><i class="fas fa-quote-left"></i> Movie Quotes</a></li>
-                        <li class="nav-item"><a class="nav-link <?= $active_section === 'actors' ? 'active' : '' ?>" href="?section=actors"><i class="fas fa-star"></i> Top Actors</a></li>
-                        <li class="nav-item"><a class="nav-link <?= $active_section === 'tracker' ? 'active' : '' ?>" href="?section=tracker"><i class="fas fa-check-square"></i> Series Tracker</a></li>
-                        <li class="nav-item"><a class="nav-link <?= $active_section === 'planner' ? 'active' : '' ?>" href="?section=planner"><i class="fas fa-calendar"></i> Movie Night</a></li>
-                        <li class="nav-item"><a class="nav-link <?= $active_section === 'search' ? 'active' : '' ?>" href="?section=search"><i class="fas fa-search"></i> Search Movies</a></li>
+                        <li class="nav-item"><a class="nav-link <?= $active_section === 'dashboard' ? 'active' : '' ?>" href="index.php?section=dashboard"><i class="fas fa-home"></i> Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link <?= $active_section === 'random' ? 'active' : '' ?>" href="index.php?section=random"><i class="fas fa-dice"></i> Random Movie</a></li>
+                        <li class="nav-item"><a class="nav-link <?= $active_section === 'tonight' ? 'active' : '' ?>" href="index.php?section=tonight"><i class="fas fa-bullseye"></i> Tonight's Pick</a></li>
+                        <li class="nav-item"><a class="nav-link <?= $active_section === 'guess' ? 'active' : '' ?>" href="index.php?section=guess"><i class="fas fa-question-circle"></i> Guess Game</a></li>
+                        <li class="nav-item"><a class="nav-link <?= $active_section === 'quote' ? 'active' : '' ?>" href="index.php?section=quote"><i class="fas fa-quote-left"></i> Movie Quotes</a></li>
+                        <li class="nav-item"><a class="nav-link <?= $active_section === 'actors' ? 'active' : '' ?>" href="index.php?section=actors"><i class="fas fa-star"></i> Top Actors</a></li>
+                        <li class="nav-item"><a class="nav-link <?= $active_section === 'tracker' ? 'active' : '' ?>" href="index.php?section=tracker"><i class="fas fa-check-square"></i> Series Tracker</a></li>
+                        <li class="nav-item"><a class="nav-link <?= $active_section === 'planner' ? 'active' : '' ?>" href="index.php?section=planner"><i class="fas fa-calendar"></i> Movie Night</a></li>
+                        <li class="nav-item"><a class="nav-link <?= $active_section === 'search' ? 'active' : '' ?>" href="index.php?section=search"><i class="fas fa-search"></i> Search Movies</a></li>
                         <li class="nav-item">
                             <hr class="text-muted my-2">
                         </li>
