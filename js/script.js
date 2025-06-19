@@ -1119,6 +1119,7 @@ function searchMovies() {
     // Add year parameter for movies if specified
     if (year) {
         movieSearchUrl += `&year=${year}`;
+        tvSearchUrl += `&year=${year}`;
         // Note: TV search doesn't have a year parameter, we'll filter results later
     }
 
